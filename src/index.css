@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.otroComponent{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.otroComponent h1{
+  text-align: center;
+  width: 100%;
+}
+
+.buttons{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.button{
+  height: 50%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.rojo{
+  background-color: rgb(221, 18, 18);
+}
+
+.amarillo{
+  background-color: rgb(235, 238, 51);
+  color: black;
+}
+
+.azul{
+  background-color: rgb(47, 112, 235);
+}
+
+.caja{
+  width: 50%;
+  height: 150px;
+}
